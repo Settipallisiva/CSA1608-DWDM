@@ -1,0 +1,4 @@
+PROGRAM:
+Relation <- lm(diabetes$BloodPressure~diabetes$Age)
+Png<- (file=”linear regression.png”)
+Plot(diabetes$Age, diabetes$BloodPressure
